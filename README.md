@@ -1,6 +1,6 @@
 # roborally
 
-This repository showcases my contributions to a university course project where we developed a digital adaptation of the RoboRally board game (2017 edition) as a group.
+This repository showcases my contributions to a university course project where we developed a digital adaptation of the RoboRally board game (2017 edition).
 
 > [!Note]
 > This repository is frozen and will not receive further updates. It serves as a showcase of my contributions to the RoboRally project. While the server and random bot are functional, the state of the code is not intended to be run or played as a complete game.
