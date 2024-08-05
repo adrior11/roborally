@@ -1,0 +1,52 @@
+{
+  "constellation": "LINE",
+  "rule": null,
+  "boardData": [
+    {
+      "boardId": "A",
+      "rotation": 0
+    },
+    {
+      "boardId": "5A",
+      "rotation": 0
+    }
+  ],
+  "specialTilePositions": {
+    "antenna": {
+      "tile": {
+        "type": "Antenna",
+        "orientations": ["right"],
+        "isOnBoard": "A"
+      },
+      "position": [0, 4]
+    },
+    "restartPoints": [
+      {
+        "tile": {
+          "type":"RestartPoint",
+          "orientations": ["top"],
+          "isOnBoard": "5A"
+        },
+        "position": [1, 9]
+      }
+    ],
+    "checkpoints": [
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 1,
+          "isOnBoard": "5A"
+        },
+        "position": [5, 7]
+      },
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 2,
+          "isOnBoard": "5A"
+        },
+        "position": [8, 0]
+      }
+    ]
+  }
+}

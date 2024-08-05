@@ -1,0 +1,44 @@
+{
+  "name": "B",
+  "startingBoard": true,
+  "tiles": [
+    [
+      [{"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "StartPoint", "isOnBoard": "B"}],
+      [{"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "StartPoint", "isOnBoard": "B"}],
+      [{"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Empty", "isOnBoard": "B"}]
+    ],
+
+    [
+      [{"type": "StartPoint", "isOnBoard": "B"}],
+      [{"type": "Wall", "isOnBoard": "B", "orientations": ["top"]}, {"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "StartPoint", "isOnBoard": "B"}],
+      [{"type": "StartPoint", "isOnBoard": "B"}],
+      [{"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Wall", "isOnBoard": "B", "orientations": ["bottom"]}, {"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "StartPoint", "isOnBoard": "B"}]
+    ],
+
+    [
+      [{"type": "Wall", "isOnBoard": "B", "orientations": ["right"]}, {"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Wall", "isOnBoard": "B", "orientations": ["bottom", "right"]}, {"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Wall", "isOnBoard": "B", "orientations": ["right"]}, {"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Wall", "isOnBoard": "B", "orientations": ["right"]}, {"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Wall", "isOnBoard": "B", "orientations": ["right", "top"]}, {"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Empty", "isOnBoard": "B"}],
+      [{"type": "Wall", "isOnBoard": "B", "orientations": ["right"]}, {"type": "Empty", "isOnBoard": "B"}]
+    ]
+  ]
+}

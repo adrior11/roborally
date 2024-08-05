@@ -1,0 +1,44 @@
+{
+  "name": "A",
+  "startingBoard": true,
+  "tiles": [
+    [
+      [{"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "StartPoint", "isOnBoard": "A"}],
+      [{"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "StartPoint", "isOnBoard": "A"}],
+      [{"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "Empty", "isOnBoard": "A"}]
+    ],
+
+    [
+      [{"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "StartPoint", "isOnBoard": "A"}],
+      [{"type": "Wall", "isOnBoard": "A", "orientations": ["top"]}, {"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "StartPoint", "isOnBoard": "A"}],
+      [{"type": "StartPoint", "isOnBoard": "A"}],
+      [{"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "Wall", "isOnBoard": "A", "orientations": ["bottom"]}, {"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "StartPoint", "isOnBoard": "A"}],
+      [{"type": "Empty", "isOnBoard": "A"}]
+    ],
+
+    [
+      [{"type": "ConveyorBelt", "isOnBoard": "A", "speed": 1, "orientations": ["right", "left"]}],
+      [{"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "Wall", "isOnBoard": "A", "orientations": ["right"]}, {"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "Wall", "isOnBoard": "A", "orientations": ["right"]}, {"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "Empty", "isOnBoard": "A"}],
+      [{"type": "ConveyorBelt", "isOnBoard": "A", "speed": 1, "orientations": ["right", "left"]}]
+    ]
+  ]
+}

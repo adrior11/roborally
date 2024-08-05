@@ -1,0 +1,68 @@
+{
+  "constellation": "LINE",
+  "rule": "REBOOT",
+  "boardData": [
+    {
+      "boardId": "A",
+      "rotation": 0
+    },
+    {
+      "boardId": "1B",
+      "rotation": 3
+    }
+  ],
+  "specialTilePositions": {
+    "antenna": {
+      "tile": {
+        "type": "Antenna",
+        "orientations": ["right"],
+        "isOnBoard": "A"
+      },
+      "position": [0, 4]
+    },
+    "restartPoints": [
+      {
+        "tile": {
+          "type":"RestartPoint",
+          "orientations": ["top"],
+          "isOnBoard": "A"
+        },
+        "position": [0, 2]
+      }
+    ],
+    "checkpoints": [
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 1,
+          "isOnBoard": "1B"
+        },
+        "position": [7, 0]
+      },
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 2,
+          "isOnBoard": "1B"
+        },
+        "position": [3, 5]
+      },
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 3,
+          "isOnBoard": "1B"
+        },
+        "position": [0, 0]
+      },
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 4,
+          "isOnBoard": "1B"
+        },
+        "position": [9, 9]
+      }
+    ]
+  }
+}

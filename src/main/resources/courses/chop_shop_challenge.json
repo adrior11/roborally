@@ -1,0 +1,96 @@
+{
+  "constellation": "LINE",
+  "rule": null,
+  "boardData": [
+    {
+      "boardId": "B",
+      "rotation": 0
+    },
+    {
+      "boardId": "2A",
+      "rotation": 1
+    },
+    {
+      "boardId": "3A",
+      "rotation": 2
+    }
+  ],
+  "specialTilePositions": {
+    "antenna": {
+      "tile": {
+        "type": "Antenna",
+        "orientations": ["right"],
+        "isOnBoard": "B"
+      },
+      "position": [0, 4]
+    },
+    "restartPoints": [
+      {
+        "tile": {
+          "type":"RestartPoint",
+          "orientations": ["right"],
+          "isOnBoard": "2A"
+        },
+        "position": [1, 9]
+      },
+      {
+        "tile": {
+          "type":"RestartPoint",
+          "orientations": ["left"],
+          "isOnBoard": "3A"
+        },
+        "position": [2, 0]
+      }
+    ],
+    "checkpoints": [
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 1,
+          "isOnBoard": "2A"
+        },
+        "position": [3, 6]
+      },
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 2,
+          "isOnBoard": "2A"
+        },
+        "position": [7, 4]
+      },
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 3,
+          "isOnBoard": "3A"
+        },
+        "position": [1, 7]
+      },
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 4,
+          "isOnBoard": "3A"
+        },
+        "position": [9, 1]
+      },
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 5,
+          "isOnBoard": "3A"
+        },
+        "position": [4, 3]
+      },
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 6,
+          "isOnBoard": "3A"
+        },
+        "position": [9, 9]
+      }
+    ]
+  }
+}

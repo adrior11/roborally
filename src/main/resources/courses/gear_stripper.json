@@ -1,0 +1,72 @@
+{
+  "constellation": "T",
+  "rule": "CONVEYOR",
+  "boardData": [
+    {
+      "boardId": "A",
+      "rotation": 1
+    },
+    {
+      "boardId": "3B",
+      "rotation": 0
+    },
+    {
+      "boardId": "1B",
+      "rotation": 1
+    }
+  ],
+  "specialTilePositions": {
+    "antenna": {
+      "tile": {
+        "type": "Antenna",
+        "orientations": ["top"],
+        "isOnBoard": "A"
+      },
+      "position": [4, 2]
+    },
+    "restartPoints": [
+      {
+        "tile": {
+          "type":"RestartPoint",
+          "orientations": ["right"],
+          "isOnBoard": "3B"
+        },
+        "position": [1, 2]
+      },
+      {
+        "tile": {
+          "type":"RestartPoint",
+          "orientations": ["left"],
+          "isOnBoard": "1B"
+        },
+        "position": [0, 9]
+      }
+    ],
+    "checkpoints": [
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 1,
+          "isOnBoard": "3B"
+        },
+        "position": [1, 6]
+      },
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 2,
+          "isOnBoard": "1B"
+        },
+        "position": [9, 1]
+      },
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 3,
+          "isOnBoard": "3B"
+        },
+        "position": [5, 3]
+      }
+    ]
+  }
+}

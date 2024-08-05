@@ -1,0 +1,14 @@
+{
+  "name": "TestBoard2",
+  "startingBoard": false,
+  "tiles": [
+    [
+      [null],
+      [null]
+    ],
+    [
+      [null],
+      [null]
+    ]
+  ]
+}

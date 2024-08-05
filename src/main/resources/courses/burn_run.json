@@ -1,0 +1,120 @@
+{
+  "constellation": "SQUARE",
+  "rule": null,
+  "boardData": [
+    {
+      "boardId": "B",
+      "rotation": 0
+    },
+    {
+      "boardId": "5A",
+      "rotation": 2
+    },
+    {
+      "boardId": "1A",
+      "rotation": 3
+    },
+    {
+      "boardId": "4B",
+      "rotation": 0
+    },
+    {
+      "boardId": "6A",
+      "rotation": 0
+    }
+  ],
+  "specialTilePositions": {
+    "antenna": {
+      "tile": {
+        "type": "Antenna",
+        "orientations": ["right"],
+        "isOnBoard": "B"
+      },
+      "position": [0, 4]
+    },
+    "restartPoints": [
+      {
+        "tile": {
+          "type":"RestartPoint",
+          "orientations": ["top"],
+          "isOnBoard": "5A"
+        },
+        "position": [9, 9]
+      },
+      {
+        "tile": {
+          "type":"RestartPoint",
+          "orientations": ["left"],
+          "isOnBoard": "1A"
+        },
+        "position": [7, 0]
+      },
+      {
+        "tile": {
+          "type":"RestartPoint",
+          "orientations": ["right"],
+          "isOnBoard": "4B"
+        },
+        "position": [0, 1]
+      },
+      {
+        "tile": {
+          "type":"RestartPoint",
+          "orientations": ["top"],
+          "isOnBoard": "6A"
+        },
+        "position": [0, 9]
+      }
+    ],
+    "checkpoints": [
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 1,
+          "isOnBoard": "4B"
+        },
+        "position": [4, 9]
+      },
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 2,
+          "isOnBoard": "6A"
+        },
+        "position": [4, 6]
+      },
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 3,
+          "isOnBoard": "1A"
+        },
+        "position": [6, 1]
+      },
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 4,
+          "isOnBoard": "1A"
+        },
+        "position": [4, 3]
+      },
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 5,
+          "isOnBoard": "4B"
+        },
+        "position": [2, 2]
+      },
+      {
+        "tile": {
+          "type": "CheckPoint",
+          "count": 6,
+          "isOnBoard": "6A"
+        },
+        "position": [7, 2]
+      }
+    ]
+  }
+}
