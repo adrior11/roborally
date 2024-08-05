@@ -48,10 +48,10 @@ public class Server {
     private final ConcurrentLinkedQueue<Integer> availableClientIds = new ConcurrentLinkedQueue<>();
     private final Timer aliveTimer = new Timer(true);
     private final Gson gson = GsonUtil.getGson();
-    private final int minPlayers;                    // Sets the number of players needed to start a game
-    private final int port;                                     // Can be null for testing.
+    private final int minPlayers;   // Sets the number of players needed to start a game
+    private final int port;
     private ServerSocket serverSocket;
-    private boolean isRunning = false;                                      // Flag for testing.
+    private boolean isRunning = false;   // Flag for testing.
 
     @NonNull private final String sessionId;
     @Getter private final AtomicBoolean isShuttingDown = new AtomicBoolean(false);

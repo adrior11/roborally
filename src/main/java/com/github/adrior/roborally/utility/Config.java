@@ -19,7 +19,6 @@ import java.util.concurrent.atomic.AtomicReference;
 @Getter
 public final class Config {
     private String protocolVersion;
-    private String[] groups;
     private boolean isCheatsEnabled;
     private boolean isMusicEnabled;
     private boolean isSavingLog;
@@ -68,7 +67,6 @@ public final class Config {
             Config newInstance = new Config();
 
             newInstance.protocolVersion = tempConfig.getProtocolVersion();
-            newInstance.groups = tempConfig.getGroups();
             newInstance.isCheatsEnabled = tempConfig.isCheatsEnabled();
             newInstance.isMusicEnabled = tempConfig.isMusicEnabled();
             newInstance.isSavingLog = tempConfig.isSavingLog();

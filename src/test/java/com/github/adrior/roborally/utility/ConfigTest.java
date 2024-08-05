@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.net.URL;
-import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -18,7 +17,6 @@ class ConfigTest {
         assertNotNull(config, "Config instance should not be null");
 
         System.out.println(config.getProtocolVersion());
-        System.out.println(Arrays.toString(config.getGroups()));
         System.out.println(config.isMusicEnabled());
         System.out.println(config.isSavingLog());
     }

@@ -12,7 +12,6 @@ import com.github.adrior.roborally.server.util.TypeCastingHelper;
 import com.github.adrior.roborally.utility.Config;
 import lombok.NonNull;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class HelloServerHandler implements IMessageHandler<ClientHandler> {
@@ -34,12 +33,11 @@ public class HelloServerHandler implements IMessageHandler<ClientHandler> {
         Server server = clientHandler.getServer();
 
         synchronized (server) {
-            String messageGroup = message.messageBody().get("group").toString();
             boolean isAI = TypeCastingHelper.getBooleanFromMessage(clientHandler, message, "isAI");
             String messageProtocol = message.messageBody().get("protocol").toString();
 
             // Assert the group and the protocol version of the connecting client.
-            if (!Arrays.asList(cfg.getGroups()).contains(messageGroup) || !cfg.getProtocolVersion().equals(messageProtocol)) {
+            if (!cfg.getProtocolVersion().equals(messageProtocol)) {
                 ServerCommunicationFacade.log("<Handler> Connection refused. Protocol or Group is not supported.");
                 clientHandler.sendMessage(PredefinedServerMessages.error("Protocol or Group is not supported. Disconnecting..."));
                 clientHandler.closeResources();

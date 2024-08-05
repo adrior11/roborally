@@ -17,15 +17,13 @@ public class PredefinedClientMessages {
      * Creates a HelloServer message to send the group information, whether it's an AI,
      * and the protocol version from the client to the server.
      *
-     * @param group The group name.
      * @param isAI Whether the client is an AI.
      * @param protocolVersion The version of the protocol.
      * @return A pre-defined HelloServer message.
      */
-    public static Message helloServer(String group, boolean isAI, String protocolVersion) {
+    public static Message helloServer(boolean isAI, String protocolVersion) {
         return new MessageBuilder()
                 .setMessageType(MessageType.HELLO_SERVER)
-                .addContent("group", group)
                 .addContent("isAI", isAI)
                 .addContent("protocol", protocolVersion)
                 .build();
