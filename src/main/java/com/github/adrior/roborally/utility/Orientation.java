@@ -4,11 +4,11 @@ import lombok.Getter;
 import lombok.NonNull;
 
 /**
- * The Direction enum represents the four cardinal directions
+ * The Orientation enum represents the four cardinal orientation
  * (right, down, left, up) with associated vectors.
  *
  * <p> It provides methods such as to get the {@link Vector} representation
- * of a direction or to turn left or right from a given direction.
+ * of a orientation or to turn left or right from a given orientation.
  */
 @Getter
 public enum Orientation {
@@ -20,42 +20,42 @@ public enum Orientation {
     private final Vector vector;
 
     /**
-     * Constructs a Direction with the given vector.
+     * Constructs a Orientation with the given vector.
      *
-     * @param vector the vector representing the direction.
+     * @param vector the vector representing the orientation.
      */
     Orientation(Vector vector) {
         this.vector = vector;
     }
 
-    // Array of directions in clockwise order
-    private static final Orientation[] DIRECTIONS = values();
+    // Array of orientation in clockwise order
+    private static final Orientation[] ORIENTATION = values();
 
     /**
      * Turns left (counterclockwise) by 90 degrees.
      *
-     * @return the new direction after turning left.
+     * @return the new orientation after turning left.
      */
     public Orientation turnLeft() {
-        return DIRECTIONS[(this.ordinal() + 3) % 4];
+        return ORIENTATION[(this.ordinal() + 3) % 4];
     }
 
     /**
      * Turns right (clockwise) by 90 degrees.
      *
-     * @return the new direction after turning right.
+     * @return the new orientation after turning right.
      */
     public Orientation turnRight() {
-        return DIRECTIONS[(this.ordinal() + 1) % 4];
+        return ORIENTATION[(this.ordinal() + 1) % 4];
     }
 
     /**
      * Turns by 180 degrees (U-turn).
      *
-     * @return the new direction after making a U-turn.
+     * @return the new orientation after making a U-turn.
      */
     public Orientation uTurn() {
-        return DIRECTIONS[(this.ordinal() + 2) % 4];
+        return ORIENTATION[(this.ordinal() + 2) % 4];
     }
 
     /**

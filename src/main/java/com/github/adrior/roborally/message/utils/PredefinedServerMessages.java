@@ -26,7 +26,7 @@ public class PredefinedServerMessages {
     private static final String REGISTER = "register";
 
     /**
-     * Creates a HelloClient message to send the protocol version from the server to the client.
+     * Creates a HELLO_CLIENT message to send the protocol version from the server to the client.
      *
      * @param protocolVersion The version of the protocol.
      * @return A pre-defined HelloClient message.
@@ -40,7 +40,7 @@ public class PredefinedServerMessages {
 
 
     /**
-     * Creates a Welcome message to send the client clientId from the server to the client upon successful connection.
+     * Creates a WELCOME message to send the client clientId from the server to the client upon successful connection.
      *
      * @param clientID The client clientId assigned by the server.
      * @return A pre-defined Welcome message.

@@ -14,7 +14,7 @@ import lombok.experimental.UtilityClass;
 public class PredefinedClientMessages {
 
     /**
-     * Creates a HelloServer message to send the group information, whether it's an AI,
+     * Creates a HELLO_SERVER message to send the group information, whether it's an AI,
      * and the protocol version from the client to the server.
      *
      * @param isAI Whether the client is an AI.
